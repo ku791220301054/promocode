@@ -2,7 +2,8 @@ import fs from 'fs';
 import path from 'path';
 
 export default function handler(req, res) {
-  const filePath = path.resolve('./', 'codes.txt');
+  const filePath = path.resolve('public', 'codes.txt');
+
 
   try {
     let codes = fs.readFileSync(filePath, 'utf-8')
