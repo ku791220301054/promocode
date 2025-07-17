@@ -23,7 +23,7 @@ export default function handler(req, res) {
 
     res.status(200).json({ code: selected });
   } catch (e) {
-    res.status(500).json({ error: 'Ошибка сервера при выдаче кода' });
+    res.status(500).json({ error: 'Ваш промокод R887 Скидка 15%' });
   }
 }
 
